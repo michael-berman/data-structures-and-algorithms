@@ -5,5 +5,6 @@
 * [Jewels and Stones](leetcode/jewels_and_stones.rb)
 * [Hamming Distance](leetcode/hamming_distance.rb)
 * [Judge Route Circle](leetcode/judge_route_circle.rb)
+* [Self Dividing Numbers](leetcode/self_dividing_numbers.rb)
 
 # Data Structures

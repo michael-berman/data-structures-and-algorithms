@@ -11,7 +11,9 @@ the robot makes a circle.
 =end
 
 def judge_circle(moves)
+
     count_hash = Hash.new(0)
+    
     moves.split("").each do |move|
         count_hash[move] += 1
     end

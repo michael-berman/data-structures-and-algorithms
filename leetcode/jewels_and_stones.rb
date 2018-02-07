@@ -11,9 +11,11 @@ are letters. Letters are case sensitive, so "a" is considered a different
 
 def num_jewels_in_stones(j, s)
     count = 0
+
     (0...s.length).each do |i|
         count += 1 if j.include?(s[i])
     end
+
     count
 end
 
