@@ -12,23 +12,23 @@ self dividing number, including the bounds if possible.
 =end
 
 def self_dividing_numbers(left, right)
-    self_div_nums = []
+  self_div_nums = []
 
-    (left..right).each do |num|
-        self_div_nums << num if is_self_dividing?(num)
-    end
+  (left..right).each do |num|
+      self_div_nums << num if is_self_dividing?(num)
+  end
 
-    self_div_nums
+  self_div_nums
 end
 
 def is_self_dividing?(num)
-    factors = num.to_s.split("").map(&:to_i)
+  factors = num.to_s.split("").map(&:to_i)
 
-    factors.each do |i|
-       return false if i == 0 || num % i != 0
-    end
+  factors.each do |i|
+     return false if i == 0 || num % i != 0
+  end
 
-    true
+  true
 end
 
 # Linear Space Complexity

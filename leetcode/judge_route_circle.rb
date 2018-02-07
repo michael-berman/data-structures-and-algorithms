@@ -12,17 +12,17 @@ the robot makes a circle.
 
 def judge_circle(moves)
 
-    count_hash = Hash.new(0)
-    
-    moves.split("").each do |move|
-        count_hash[move] += 1
-    end
+  count_hash = Hash.new(0)
 
-    if count_hash["U"] == count_hash["D"] && count_hash["L"] == count_hash["R"]
-        return true
-    else
-        return false
-    end
+  moves.split("").each do |move|
+      count_hash[move] += 1
+  end
+
+  if count_hash["U"] == count_hash["D"] && count_hash["L"] == count_hash["R"]
+      return true
+  else
+      return false
+  end
 
 end
 
