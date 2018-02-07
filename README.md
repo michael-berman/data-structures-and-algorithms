@@ -8,5 +8,6 @@
 * [Self Dividing Numbers](leetcode/self_dividing_numbers.rb)
 * [Array Pair Sum](leetcode/array_pair_sum.rb)
 * [Number Complement](leetcode/number_complement.rb)
+* [Reverse Words in a String III](leetcode/reverse_words_in_string_3.rb)
 
 # Data Structures
