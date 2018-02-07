@@ -9,5 +9,6 @@
 * [Array Pair Sum](leetcode/array_pair_sum.rb)
 * [Number Complement](leetcode/number_complement.rb)
 * [Reverse Words in a String III](leetcode/reverse_words_in_string_3.rb)
+* [Keyboard Row](leetcode/keyboard_row.rb)
 
 # Data Structures
